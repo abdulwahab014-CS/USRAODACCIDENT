@@ -1,10 +1,10 @@
-# 🚆 Railroad Highway-Crossing Incident Data Pipeline
+# Railroad Highway-Crossing Incident Data Pipeline
 
 A comprehensive Python-based data cleaning, preprocessing, and feature engineering pipeline built for analyzing railroad highway-crossing collision records. This repository converts raw, noisy, and unformatted incident data into an analysis-ready, standardized dataset optimized for machine learning models (e.g., predicting accident severity, injury outcomes, or property damage costs).
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Raw highway-rail collision records maintained by transportation safety authorities often contain data quality issues like missing records, unformatted dates, duplicate entries, extreme financial/speed outliers, and unencoded categorical features. 
 
@@ -12,7 +12,7 @@ This project implements a modular **42-cell automated preprocessing pipeline** i
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 * **Data Quality Enhancement:** Eliminate missing values, duplicate entries, and inconsistent string formatting.
 * **Feature Engineering:** Derive meaningful Domain-Specific metrics such as accident severity scores, speed differentials, time-of-day indicators, and per-occupant damage metrics.
@@ -22,7 +22,7 @@ This project implements a modular **42-cell automated preprocessing pipeline** i
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * **Language:** Python 3.x
 * **Environment:** Google Colab / Jupyter Notebook
@@ -35,7 +35,7 @@ This project implements a modular **42-cell automated preprocessing pipeline** i
 
 ---
 
-## 📁 Dataset Description
+##  Dataset Description
 
 The dataset contains historical records of highway-rail crossing collisions involving driver demographics, environmental conditions, train specifications, and impact outcomes:
 
@@ -47,7 +47,7 @@ The dataset contains historical records of highway-rail crossing collisions invo
 
 ---
 
-## ⚙️ Data Preprocessing Pipeline Steps
+##  Data Preprocessing Pipeline Steps
 
 1. **Data Loading & Deduplication:** Removes duplicate rows (`df.drop_duplicates()`) and standardizes column headers into `snake_case`.
 2. **Missing Value Imputation:** Substitutes missing numerical attributes using median values and fills missing categorical text with `"Unknown"`.
@@ -67,7 +67,7 @@ The dataset contains historical records of highway-rail crossing collisions invo
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
